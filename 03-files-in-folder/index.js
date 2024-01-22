@@ -1,5 +1,5 @@
 const { stat } = require('fs/promises');
-const { readdir } = require('fs/promises');
+const { readdir } = require('fs').promises;
 const path = require('path');
 
 const dirPath = path.resolve(__dirname, 'secret-folder');
